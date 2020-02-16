@@ -1,6 +1,6 @@
-Deriv App
-============
-This repository contains the various platforms of the Deriv application.
+
+
+
 
 ### In this document:
 - [Installation](#installation)
@@ -31,7 +31,7 @@ This repository contains the various platforms of the Deriv application.
 [comment]: <> (TODO: Refactor Clean Project to be under usage)
 
 ## Installation
-In order to work on your own version of the Deriv application, please **fork this project**.
+
 
 You will need to perform the following on your development machine:
 
@@ -65,7 +65,7 @@ All packages must contain the following scripts to perform the stated actions:
 **Please follow the README of each package you intend to work with on how to get set up and their custom scripts.** However, the above scripts can be run from the root directory in the following manner.
 
 ### Package names
-Each package is named with the `@deriv/` prefix, however for the scripts above, you do not need to add the `@deriv/` prefix as the scripts already prefix the 1st argument of the script with `@deriv/`. **However**, if you do use the `lerna` CLI directly, then you will need to use the full package name including the `@deriv/` prefix.
+
 
 You can find the names of packages by first navigating to the `packages` folder. Each subfolder is a package, and contains a `package.json` file. The value of the `name` key in `package.json` is the package name.
 
